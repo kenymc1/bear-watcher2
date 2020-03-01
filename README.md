@@ -7,9 +7,10 @@ basic app to login bears that you see on a hike
 html, css, javascript, bootystrap, fontawsome
 
 ## Screenshots
-![https://github.com/kenymc1/bear-watcher2/blob/master/img/Screen%20Shot%202020-02-29%20at%209.49.57%20PM.png]
-
-
+![](https://github.com/kenymc1/bear-watcher2/blob/master/img/Screen%20Shot%202020-02-29%20at%209.49.57%20PM.png)
+![](https://github.com/kenymc1/bear-watcher2/blob/master/img/Screen%20Shot%202020-02-29%20at%209.50.29%20PM.png)
+![](https://github.com/kenymc1/bear-watcher2/blob/master/img/Screen%20Shot%202020-02-29%20at%209.50.58%20PM.png)
+![](https://github.com/kenymc1/bear-watcher2/blob/master/img/Screen%20Shot%202020-02-29%20at%209.51.14%20PM.png)
 ## How to deploy
 * Clone down this project
 * Insall[ http-server](https://www.npmjs.com/)
