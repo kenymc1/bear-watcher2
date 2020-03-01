@@ -1,21 +1,26 @@
+
+import util from '../helpers/util.js';
+import bears from '../helpers/data/bearData.js';
+import beatForm from './bearForm.js';
+
+
 const printBears = () => {
-  const bears = breadData.getBreads();
   let domString = '';
-
-  allBreads.forEach((bread) => {
-
+  for (let i = 0; i < bears.length; i++) {
     domString += '<div class=" d-inline-block col-3">';
     domString += '<div class="card" style="width: 18rem;">';
-    domString += '<img src="/img/Bear_0006_Layer-5.png" class="card-img-top">';
+    domString += `<img src="${bears[i].imageUrl}" class="card-img-top"`;
     domString += '<div class="card-body">';
-    domString += '<h3 class="card-text">Bear Name</h3>';
+    domString += `<h3 class="card-text">${bears[i].name}</h3>`;
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
   }
-  );
-  util.printToDom('bear-container', domString);
-  document.getElementById('submit').addEventListener('click', printBears);
-  
-}
+
+  util.printToDom('river', domString);
+
+};
+
+printBears();
+
 export default { printBears };
