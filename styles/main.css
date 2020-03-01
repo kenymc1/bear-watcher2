@@ -1,0 +1,396 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.line {
+  color: orange;
+}
+
+hr {
+  background-image: orange;
+  width: 70% solid orange;
+}
+
+#mainInput {
+  margin-bottom: 40px;
+}
+
+/* -----------------------------------------------------Nav------------------------------- */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+/* -----------------------------------------------------hero------------------------------- */
+.hero img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* <!---------------------------------------- about --------------------------------------------------> */
+
+#about {
+  margin-top: 80px;
+  margin-bottom: 40px
+}
+
+#about h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#about h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+
+// ----------------------------------------------------------how
+
+#how {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  border-top: 1px solid orange;
+}
+
+#how h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#how h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#how h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#how h3::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#how p {
+  text-align: center;
+}
+
+#form {}
+
+.col-md-4 i {
+  text-align: center;
+}
+
+
+.fa-binoculars {
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  align-content: auto;
+  padding-bottom: 30px;
+  padding-left: 160px;
+}
+
+.fa-user-shield {
+
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  align-content: auto;
+  padding-bottom: 30px;
+  padding-left: 160px;
+}
+
+.fa-edit {
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  align-content: auto;
+  padding-bottom: 30px;
+  padding-left: 160px;
+}
+
+
+
+// /* <!---------------------------------------- form --------------------------------------------------> */
+#form {
+  padding-top: 60px;
+  border-top: 1px solid orange;
+}
+
+#mainInput {
+  margin-left: 27%;
+}
+
+#form h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+ 
+}
+
+#form h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.button {
+  padding-top: 20px;
+  padding-left: 41%;
+}
+
+#submit {
+  margin-left: 21%;
+}
+
+
+
+/* <!---------------------------------------- Da Bears--------------------------------------------------> */
+.da-bears {
+  background-color: white;
+  border-top: #ff9800;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.da-bears h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.da-bears h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.profile {
+  padding: 100px 10px 10px;
+  background-color: #efefef;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid orange;
+}
+
+.card-img-top {
+  top: -60px;
+  border-radius: 50%;
+  // left: calc(50% - 90px);
+  border: 1px solid white;
+  border: white solid 5px;
+}
+
+
+
+.btn {
+  margin: 20px 10px 20px 20px;
+}
+
+
+input {
+  margin-left: 90%;
+  width: 200px;
+}
+
+.bear {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin-top: 20px;
+  background: #eee;
+}
+
+a {
+  color: #f96332;
+}
+
+.card {
+  background: #EFECEB;
+  margin-bottom: 30px;
+  transition: .5s;
+  border: 0;
+  border-radius: .1875rem;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: none;
+}
+
+.card-body {
+  font-size: 14px;
+  color: grey;
+  padding: 20px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+/* <!---------------------------------------- contact --------------------------------------------------> */
+
+#contact {
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+.contact img {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.contact h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.contact h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+/* <!---------------------------------------- copyrights --------------------------------------------------> */
+
+.copy {
+  background-color: white;
+  border-top: 1px solid orange;
+  padding-top: 20px
+}
+
+.navbar-brand img {
+  justify-content: center;
+}
+
+
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+/*-----------------------------------------------------------------
+CSS settings for HTML Div form1 (Dynamically Created using jQuery)
+------------------------------------------------------------------*/
+div#form1 {
+  // width:250px;
+  // height:430px;
+  // border:2px solid #a5a5a5;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 10px
+}
+
+h3,
+p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+input {
+  width: 12%;
+  margin: 10px 10px;
+  padding: 5px;
+  height: 35px;
+  border-radius: 0px;
+  box-decoration-break: none;
+}
+
+input#submit {
+  width: 10%;
+  margin: 10px 15px 10px 0;
+  padding: 5px;
+  background-color: #3fb8e8;
+  border-radius: 10px;
+  color: #fff;
+  height: 41px;
+  font-size: 16px
+}
+
+div#form {
+  margin: 30px auto;
+  width: auto;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #006400;
+}
+
+.hidden {
+  display: none;
+}
+
+.card-header {
+  background-color: #ff9800;
+
+}.card-body {
+  background-color: darkgrey;
+}
+
